@@ -10,16 +10,11 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This application is intended to allow the user to submit a form new cosplay characters with a reference image to a databased and then return it. Initially, the new submissions come in with a status of unfinished—but after they are submitted we can toggle the status from Unfinished to Complete. 
 
-### Prerequisites
+Of course, if a character gets removed from the lineup, we can also delete them from the roster. 
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+And, if we’re feeling uninspired, at the bottom there’s a listing of the current top 25 anime characters from a popular website called My Anime List which allows users of the site to rank characters. 
 
 ### Installation
 
