@@ -4,31 +4,43 @@
       "id": 1,
       "name": "Tenten",
       "show": "Naruto",
-      "imageURL": "https://static.wikia.nocookie.net/naruto/images/b/bd/Tenten_-_The_Last_-.png/revision/latest?cb=20160425072842"
+      "image_URL": "https://static.wikia.nocookie.net/naruto/images/b/bd/Tenten_-_The_Last_-.png/revision/latest?cb=20160425072842",
+      "status": "Complete"
     },
     {
       "id": 2,
       "name": "Erza Scarlet",
       "show": "Fairy Tail",
-      "imageURL": "https://static.wikia.nocookie.net/p__/images/9/9a/Erza_Scarlet.png/revision/latest?cb=20190608035450&path-prefix=protagonist"
+      "image_URL": "https://static.wikia.nocookie.net/p__/images/9/9a/Erza_Scarlet.png/revision/latest?cb=20190608035450&path-prefix=protagonist",
+      "status": "Complete"
     },
     {
       "id": 3,
       "name": "Sango",
       "show": "Inuyasha",
-      "imageURL": "https://static.wikia.nocookie.net/inuyasha/images/8/81/Sango_Vector.png/revision/latest?cb=20210223040031"
+      "image_URL": "https://static.wikia.nocookie.net/inuyasha/images/8/81/Sango_Vector.png/revision/latest?cb=20210223040031",
+      "status": "Unfinished"
     },
     {
       "name": "Makima",
       "show": "Chainsaw Man ",
-      "imageURL": "https://static.wikia.nocookie.net/chainsaw-man/images/9/9e/Monkima.jpg/revision/latest?cb=20210219092522",
-      "id": 4
+      "image_URL": "https://static.wikia.nocookie.net/chainsaw-man/images/9/9e/Monkima.jpg/revision/latest?cb=20210219092522",
+      "id": 4,
+      "status": "Unfinished"
     },
     {
       "name": "Marin Kitagawa",
       "show": "My Dress Up Darling",
-      "imageURL": "https://static.wikia.nocookie.net/sono-bisque-doll-wa-koi-wo-suru/images/6/65/Kitagawa_Marin-.png/revision/latest/scale-to-width-down/384?cb=20211025173248",
-      "id": 5
+      "image_URL": "https://static.wikia.nocookie.net/sono-bisque-doll-wa-koi-wo-suru/images/6/65/Kitagawa_Marin-.png/revision/latest/scale-to-width-down/384?cb=20211025173248",
+      "id": 5,
+      "status": "Complete"
+    },
+    {
+      "name": "Nico Robin",
+      "show": "One Piece",
+      "image_URL": "https://static.wikia.nocookie.net/onepiece/images/b/bc/Nico_Robin_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/514?cb=20190202051257",
+      "status": "Complete",
+      "id": 7
     }
   ]
 }
