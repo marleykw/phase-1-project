@@ -7,7 +7,7 @@ html {
   body {
     min-height: 100%;
     min-width: 100%;
-    background: linear-gradient(lightpink, white);
+    background: whitesmoke;
   }
   
   button {
@@ -35,3 +35,21 @@ html {
     border-radius: 5px;
     box-shadow: 2px 5px 5px #333;
   }
+  img {
+    float: center;
+    width:  125px;
+    height: 300px;
+    object-fit: cover;
+}
+
+  .card {
+    text-align: center;
+    border: grey solid 1px;
+    padding: 1rem;
+    width: 15rem;
+    height: 25rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 3px 4px pink;
+  }
+  
