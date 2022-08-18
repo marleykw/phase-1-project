@@ -7,14 +7,19 @@
     </head>
     <body>
         <div id="main-content">
-        <form id="suggest-new-cosplay-form" action method="POST">
-            <label for="new-cosplay-character-name">Character Name:</label>
+        <form id="new-cosplay-form" action method="POST">
             <input type="text" id="new-cosplay-character-name" name="new-cosplay-character-name" placeholder="Character">
+            <input type="text" id="new-cosplay-character-show" name="new-cosplay-character-show" placeholder="Show">
+            <input type="text" id="new-cosplay-character-ref-image" name="new-cosplay-character-ref-image" placeholder="Ref Image URL">
             <input type="submit" id="submit-new-cosplay" value="Add New Cosplay">
         </form>
-        <ul id="cosplay-list">
-        </ul>
         </div>
-        <script src="./index.js"></script>
+        <div id="character-listing"></div>
+        <div id="popular-characters">
+            <h2>Top 25 Characters from MAL</h2>
+            <ul id="top-characters-list">
+            </ul>
+        </div>
+        <script defer src="./index.js"></script>
     </body>
 </html>
