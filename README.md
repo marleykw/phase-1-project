@@ -10,11 +10,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This application is intended to allow the user to submit a form new cosplay characters with a reference image to a databased and then return it. Initially, the new submissions come in with a status of unfinished—but after they are submitted we can toggle the status from Unfinished to Complete. 
-
-Of course, if a character gets removed from the lineup, we can also delete them from the roster. 
-
-And, if we’re feeling uninspired, at the bottom there’s a listing of the current top 25 anime characters from a popular website called My Anime List which allows users of the site to rank characters. 
+This application is the result of my Phase-1 bootcamp project--a single page web application. This webpage employs POST, PATCH, and DELETE http requests triggered by event listeners on various buttons and form submissions. 
 
 ### Installation
 
@@ -23,6 +19,7 @@ And, if we’re feeling uninspired, at the bottom there’s a listing of the cur
    ```sh
    json-server --watch json.db
    ```
+3. In a new terminal window, open up index.html
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -32,9 +29,11 @@ And, if we’re feeling uninspired, at the bottom there’s a listing of the cur
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This application is intended to allow the user to submit a form new cosplay characters with a reference image to a databased and then return it. Initially, the new submissions come in with a status of unfinished—but after they are submitted we can toggle the status from Unfinished to Complete. 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Of course, if a character gets removed from the lineup, we can also delete them from the roster. 
+
+And, if we’re feeling uninspired, at the bottom there’s a listing of the current top 25 anime characters from a popular website called My Anime List which allows users of the site to rank characters. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
