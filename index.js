@@ -25,14 +25,12 @@ document.addEventListener('click', (event) =>{
       //console.log(result.status)
         let curStat = result.status
         //console.log(curStat)
-        updateStatus(curStat,event.target.id, function() {
-          document.location.reload()})
+        updateStatus(curStat,event.target.id, reloadPage())
 
       })
     } else if (event.target.className === 'delete-btn') {
       console.log("it is here")
-      deleteCosplay(event.target.id, function() {
-        document.location.reload()})
+      deleteCosplay(event.target.id, reloadPage())
 
     }
   })
@@ -56,6 +54,7 @@ function updateStatus(curStat, itemID) {
       status: updatedStatus
     })
   })
+
 }
 
 //Function to delete cosplay
@@ -78,8 +77,7 @@ form.addEventListener('submit', (e) => {
   let newCharacterShow = form.querySelector("#new-cosplay-character-show").value
   let newCharacterURL = form.querySelector("#new-cosplay-character-ref-image").value
   //POST
-  postNewCharacter(newCharacterName,newCharacterShow,newCharacterURL, function() {
-    document.location.reload()})
+  postNewCharacter(newCharacterName,newCharacterShow,newCharacterURL, reloadPage())
 }) 
 
 //function to post new character
@@ -146,5 +144,8 @@ fetch(`https://api.jikan.moe/v4/top/characters`)
       popularCharactersContainer.append(addCharacter)
   }
 
+  function reloadPage() {
+    document.location.reload()
+  }
  
 
