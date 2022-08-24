@@ -25,13 +25,15 @@ document.addEventListener('click', (event) =>{
       //console.log(result.status)
         let curStat = result.status
         //console.log(curStat)
-        updateStatus(curStat,event.target.id)
-        reloadPage()
+        updateStatus(curStat,event.target.id, function() {
+          document.location.reload()})
+        //reloadPage()
       })
     } else if (event.target.className === 'delete-btn') {
       console.log("it is here")
-      deleteCosplay(event.target.id)
-      reloadPage()
+      deleteCosplay(event.target.id, function() {
+        document.location.reload()})
+      //reloadPage()
     }
   })
 
@@ -76,8 +78,8 @@ form.addEventListener('submit', (e) => {
   let newCharacterShow = form.querySelector("#new-cosplay-character-show").value
   let newCharacterURL = form.querySelector("#new-cosplay-character-ref-image").value
   //POST
-  postNewCharacter(newCharacterName,newCharacterShow,newCharacterURL)
-  reloadPage()
+  postNewCharacter(newCharacterName,newCharacterShow,newCharacterURL, function() {
+    document.location.reload()})
 }) 
 
 //function to post new character
