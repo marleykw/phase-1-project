@@ -27,13 +27,13 @@ document.addEventListener('click', (event) =>{
         //console.log(curStat)
         updateStatus(curStat,event.target.id, function() {
           document.location.reload()})
-        //reloadPage()
+
       })
     } else if (event.target.className === 'delete-btn') {
       console.log("it is here")
       deleteCosplay(event.target.id, function() {
         document.location.reload()})
-      //reloadPage()
+
     }
   })
 
@@ -67,7 +67,7 @@ function deleteCosplay(itemID) {
       'Content-Type': 'application/json'
     }
   })
-  document.location.reload()
+  //document.location.reload()
 }
 
 
@@ -146,8 +146,5 @@ fetch(`https://api.jikan.moe/v4/top/characters`)
       popularCharactersContainer.append(addCharacter)
   }
 
-  //Reload function 
-  function reloadPage() {
-    document.location.reload()
-  }
+ 
 
